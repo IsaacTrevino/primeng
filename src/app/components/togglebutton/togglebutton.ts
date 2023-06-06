@@ -149,7 +149,7 @@ export class ToggleButton implements ControlValueAccessor {
     }
 
     get hasOffLabel(): boolean {
-        return (this.onLabel && this.onLabel.length > 0) as boolean;
+        return (this.offLabel && this.offLabel.length > 0) as boolean;
     }
 }
 
